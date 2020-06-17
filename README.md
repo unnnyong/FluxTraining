@@ -19,3 +19,9 @@
 ## 데이터 흐름도
 
 ![](https://unnnyongcom.files.wordpress.com/2020/06/image-105.png?w=1024)
+
+## 완성된 화면
+
+실제 동작|LottoNumberMakerVC|SavedNumbersListVC
+---|---|---
+![](https://unnnyongcom.files.wordpress.com/2020/06/jun-17-2020-21-03-01.gif?w=324)|![image](https://user-images.githubusercontent.com/28520053/84896279-a4109580-b0de-11ea-974e-737bb606bb31.png)|![image](https://user-images.githubusercontent.com/28520053/84896310-b094ee00-b0de-11ea-96e4-30ec5cb2fba6.png)
