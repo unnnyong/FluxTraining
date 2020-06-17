@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LottoNumberMakerViewController.swift
 //  LottoNumberMaker
 //
 //  Created by Eunyeong Kim on 2020/06/17.
@@ -8,13 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class LottoNumberMakerViewController: UIViewController {
+
+    @IBOutlet private weak var numbersLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+}
+
+// MARK: IBAction
+private extension LottoNumberMakerViewController {
+
+    @IBAction func didTapMakeLottoNumbers(_ sender: UIButton) {
+    }
+
+    @IBAction func didTapSaveLottoNumbers(_ sender: UIButton) {
+    }
 
 }
 
