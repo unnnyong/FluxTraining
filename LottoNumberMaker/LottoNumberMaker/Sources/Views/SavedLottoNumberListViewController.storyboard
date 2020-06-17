@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Saved Lotto Number List View Controller-->
+        <scene sceneID="J5d-EM-JpE">
+            <objects>
+                <viewController id="kdm-aG-4tV" customClass="SavedLottoNumberListViewController" customModule="LottoNumberMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8PM-9b-nsn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="buS-fR-MOl">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="buS-fR-MOl" firstAttribute="top" secondItem="8Ep-h4-1Ud" secondAttribute="top" id="GjY-Lg-ELO"/>
+                            <constraint firstAttribute="bottom" secondItem="buS-fR-MOl" secondAttribute="bottom" id="QMd-Lx-LYi"/>
+                            <constraint firstItem="buS-fR-MOl" firstAttribute="leading" secondItem="8Ep-h4-1Ud" secondAttribute="leading" id="XrV-ZN-0v6"/>
+                            <constraint firstItem="8Ep-h4-1Ud" firstAttribute="trailing" secondItem="buS-fR-MOl" secondAttribute="trailing" id="bqW-fj-WAH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8Ep-h4-1Ud"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="buS-fR-MOl" id="LtB-0I-fAi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEF-St-DsB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-129" y="66"/>
+        </scene>
+    </scenes>
+</document>
