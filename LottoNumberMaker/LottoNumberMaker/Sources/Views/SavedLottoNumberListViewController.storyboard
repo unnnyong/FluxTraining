@@ -10,7 +10,7 @@
         <!--Saved Lotto Number List View Controller-->
         <scene sceneID="J5d-EM-JpE">
             <objects>
-                <viewController id="kdm-aG-4tV" customClass="SavedLottoNumberListViewController" customModule="LottoNumberMaker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SavedLottoNumberListViewController" id="kdm-aG-4tV" customClass="SavedLottoNumberListViewController" customModule="LottoNumberMaker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8PM-9b-nsn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
