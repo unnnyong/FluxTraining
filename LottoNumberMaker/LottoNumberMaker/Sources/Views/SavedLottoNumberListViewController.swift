@@ -51,7 +51,7 @@ extension SavedLottoNumberListViewController: UITableViewDelegate {}
 extension SavedLottoNumberListViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        10
+        savedNumbers.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
