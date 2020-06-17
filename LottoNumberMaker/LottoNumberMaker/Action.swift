@@ -8,27 +8,6 @@
 
 import Foundation
 
-//class Action {
-//    let type: ActionType
-//    let numbers: [Int]
-//
-//    init(type: ActionType, numbers: [Int]) {
-//        self.type = type
-//    }
-//}
-//
-//final class NewNumberAction: Action {
-//
-//    let newNumbers: [Int]
-//
-//    init(newNumbers: [Int]) {
-//        self.newNumbers = newNumbers
-//
-//        super.init(type: .newNumbers(newNumbers))
-//    }
-//
-//}
-
 enum Action {
     case newNumbers([Int])
     case saveNumbers
