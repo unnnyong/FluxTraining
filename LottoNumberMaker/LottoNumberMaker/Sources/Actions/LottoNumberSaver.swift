@@ -22,4 +22,8 @@ struct LottoNumberSaver {
         UserDefaults.standard.set(savingNumbers, forKey: key)
     }
 
+    func load() -> [[Int]] {
+        currentSavedNumbers
+    }
+
 }

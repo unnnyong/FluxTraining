@@ -11,6 +11,7 @@ import Foundation
 enum Action {
     case newNumbers([Int])
     case saveNumbers
+    case loadSavedNumbers([[Int]])
 }
 
 final class ActionCreator {
@@ -19,6 +20,11 @@ final class ActionCreator {
 
     private let numberMaker = LottoNumberMaker()
     private let numberSaver = LottoNumberSaver.shared
+
+}
+
+// MARK: LottoNumberMakerVC
+extension ActionCreator {
 
     func makeNewNumbers() {
         let newNumbers = numberMaker.make()
@@ -31,3 +37,14 @@ final class ActionCreator {
     }
 
 }
+
+// MARK: SavedLottoNumberListVC
+extension ActionCreator {
+
+    func loadSavedNumbers() {
+        let loadedSavedNumbers = numberSaver.load()
+        dispatcher.dispatch(.loadSavedNumbers(loadedSavedNumbers))
+    }
+
+}
+
