@@ -1,5 +1,5 @@
 //
-//  LottoNumberMakerStore.swift
+//  SavedLottoNumberStore.swift
 //  LottoNumberMaker
 //
 //  Created by Eunyeong Kim on 2020/06/17.
@@ -8,16 +8,16 @@
 
 import Foundation
 
-final class LottoNumberMakerStore: Store {
+final class SavedLottoNumberStore: Store {
 
-    static let shared = LottoNumberMakerStore(dispatcher: .shared)
+    static let shared = SavedLottoNumberStore(dispatcher: .shared)
 
-    private(set) var numbers: [Int] = []
+    private(set) var savedNumbers: [[Int]] = []
 
     override func onDispatch(_ action: Action) {
         switch action {
-        case let .newNumbers(numbers):
-            self.numbers = numbers
+        case .loadSavedNumbers(let numbers):
+            savedNumbers = numbers
         default:
             break
         }
