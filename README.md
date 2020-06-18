@@ -6,7 +6,7 @@
 - [🔗 링크](https://unnnyong.me/2020/06/16/ios-%eb%b2%88%ec%97%ad-flux/)
 
 ### 설명과 함께 따라갈 수 있는 블로그 글
-- [🔗 링크](https://unnnyong.me/2020/06/17/ios--flux/)
+- [🔗 링크](https://unnnyong.me/2020/06/18/ios-flux-%ec%95%84%ed%82%a4%ed%85%8d%ec%b3%90%eb%a5%bc-%ec%82%ac%ec%9a%a9%ed%95%b4%ec%84%9c-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8%eb%a5%bc-%eb%a7%8c%eb%93%a4%ec%96%b4%eb%b3%b4%ec%9e%90/)
 
 ## 화면 구성
 
