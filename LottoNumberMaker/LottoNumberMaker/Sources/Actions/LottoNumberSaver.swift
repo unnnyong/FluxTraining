@@ -10,8 +10,6 @@ import Foundation
 
 struct LottoNumberSaver {
 
-    static let shared = LottoNumberSaver()
-
     private let key = "LottoNumbers"
     private var currentSavedNumbers: [[Int]] {
         get { UserDefaults.standard.array(forKey: key) as? [[Int]] ?? [] }

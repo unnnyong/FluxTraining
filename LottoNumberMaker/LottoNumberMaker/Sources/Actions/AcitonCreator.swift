@@ -13,7 +13,7 @@ final class ActionCreator {
     private let dispatcher: Dispatcher = .shared
 
     private let numberMaker = LottoNumberMaker()
-    private let numberSaver = LottoNumberSaver.shared
+    private let numberSaver = LottoNumberSaver()
 
 }
 
